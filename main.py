@@ -1,12 +1,26 @@
-def calculate():
+import mysql.connector
+
+def dbinitialize():
+
+    # Verbindungskonfiguration
+    # Hier müssen Sie Angaben von Ihrer lokalen MySQL-Instanz angeben und der Dienst muss gestartet sein
+    config = {
+        'user': 'root',
+        'password': 'hello12345',
+        'host': 'localhost'
+    }
+
+    # Verbindung erstellen
+    cnx = mysql.connector.connect(**config)
+
     """
-    calculates the total
-    :return: None
+    TODO
+    
+    Erstellen Sie hier nun Ihren Code zum einlesen/ausführen des im vorherigen Auftrag ergänzten SQL-Skripts
+    
     """
-    price = 14.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+
 
 
 if __name__ == '__main__':
-    calculate()
+    dbinitialize()
