@@ -18,8 +18,16 @@ def dbinitialize():
     
     Erstellen Sie hier nun Ihren Code zum einlesen/ausführen des im vorherigen Auftrag ergänzten SQL-Skripts
     
-    """
+    Ergänzen Sie den Code um eine Funktion, welche die Anzahl Kunden (customer) lesen und zurückgeben kann
+    
+    Ergänzen Sie den Code um eine Funktion, welche die Anzahl Buchungen (debit) lesen und zurückgeben kann
+    
+    Ergänzen Sie den Code um eine Funktion, welche die Summe aller Buchungen (debit) lesen und zurückgeben kann
 
+
+
+
+    """
 
 
 if __name__ == '__main__':
